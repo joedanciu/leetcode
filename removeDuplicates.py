@@ -16,3 +16,12 @@ class Solution(object):
                 index1 += 1
         total = total + index1
         return total
+
+    """ BEST SLOW/FAST METHOD STUDY THIS
+		slow = 0
+		for fast in range(1, len(nums)):
+			if nums[slow] != nums[fast]:
+				slow += 1
+				nums[slow] = nums[fast]
+		return slow + 1
+    """
