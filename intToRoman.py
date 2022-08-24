@@ -13,7 +13,6 @@ class Solution(object):
             if (num - romanVal[index]) >= 0:
                 outputString = outputString + romanNum[index]
                 num = num - romanVal[index]
-                print(num)
             else: 
                 index = index + 1
         return outputString 
